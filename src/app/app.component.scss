@@ -1,0 +1,21 @@
+div.wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+div.posts {
+  &__table {
+    padding: 20px;
+    overflow: auto;
+    position: relative;
+  }
+  &_filter {
+    width: 100%;
+  }
+  table {
+    tr {
+      cursor: pointer;
+    }
+  }
+}
